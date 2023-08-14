@@ -1,6 +1,11 @@
 #include "dice.h"
 
-std::array<Dice, 21> Dice::All()
+std::string to_string(const Dice& dice)
+{
+    return std::to_string(dice.first) + '-' + std::to_string(dice.second);
+}
+
+std::vector<Dice> AllDiceConfigs()
 {
     return {
         Dice{1,1}, Dice{1,2}, Dice{1,3}, Dice{1,4}, Dice{1,5}, Dice{1,6},

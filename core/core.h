@@ -1,0 +1,6 @@
+#include "algorithm.h"
+#include "dice.h"
+#include "halfpos.h"
+#include "move.h"
+#include "probdist.h"
+#include "position.h"
